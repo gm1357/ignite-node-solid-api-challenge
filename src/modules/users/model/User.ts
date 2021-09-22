@@ -17,7 +17,7 @@ class User {
         }
     }
 
-    turnAdmin() {
+    turnAdmin(): void {
         this.admin = true;
     }
 }
